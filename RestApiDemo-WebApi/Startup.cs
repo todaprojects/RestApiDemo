@@ -32,7 +32,6 @@ namespace RestApiDemo_WebApi
             services.AddSingleton<IShopService<Fruit>, ShopService<Fruit>>();
             services.AddSingleton<IShopService<Vegetable>, ShopService<Vegetable>>();
             services.AddSingleton<IShopService<Cookware>, ShopService<Cookware>>();
-            // services.AddSingleton<IShopService<BaseItem>, ShopService<BaseItem>>();
             services.AddControllers();
             
             // Register the Swagger generator, defining 1 or more Swagger documents
